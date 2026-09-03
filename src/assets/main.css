@@ -1,0 +1,54 @@
+@import './base.css';
+
+body {
+ 
+}
+/* .main{
+  background: linear-gradient(90deg, #243b80, #3f4fd3);
+  text-align: center;
+  border-radius: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin:20px;
+  color: white;
+  
+
+} */
+.btn{
+  background:rgb(30, 236, 15);
+  border-radius:10px;
+  font-size: 20px;
+  padding-right: 30px;
+  padding-left: 30px;
+  margin-bottom: 10px;
+  margin-left: 100px;
+}
+.kualitas{
+  text-align: center;
+  padding: 20px;
+  background: rgb(247, 245, 245);
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  margin-top: 20px;
+  color:darkblue;
+  
+  
+}
+.container{
+   display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+.sekolah {
+  text-align: center;
+  padding: 20px;
+  background: rgb(240, 240, 240);
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  margin-top: 20px;
+  margin-left: 200px;
+  margin-right: 200px;
+  color: #3f4fd3;
+}
