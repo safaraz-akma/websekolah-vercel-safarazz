@@ -12,12 +12,12 @@
 
         <p>
           <strong>📍 Alamat</strong><br>
-          Jl. Ahmad Yani No. 1, Bandung
+          Jl. sukarame No. 11, Bandung Raya
         </p>
 
         <p>
           <strong>📞 Telepon</strong><br>
-          (022) 123-4567
+          (022) 456 781
         </p>
 
         <p>
@@ -93,7 +93,7 @@
   flex: 1;
   padding: 25px;
   border-radius: 12px;
-  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.08);
+  box-shadow: 0 5px 20px rgba(239, 15, 15, 0.08);
 }
 
 form {
@@ -106,7 +106,7 @@ input,
 textarea {
   width: 100%;
   padding: 12px;
-  border: 1px solid #ddd;
+  border: 1px solid #0505ec;
   border-radius: 8px;
   box-sizing: border-box;
   margin-bottom: 10px;
@@ -120,7 +120,7 @@ textarea {
 button {
   width: fit-content;
   padding: 10px 22px;
-  background: #4055d6;
+  background: #011ab6;
   color: white;
   border: none;
   border-radius: 999px;

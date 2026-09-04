@@ -11,14 +11,14 @@ function tutupPreview() {
 function tambahKeKeranjang(nama) {
  const suara = new Audio('/audio/notifikasi.mp3')
  suara.play()
- alert(`${nama} ditambahkan ke keranjang!`)
+ alert(`${nama} ditambahkan ke keranjang lekku!`)
 }
 </script>
 <template>
 <div class="card">
  <img :src="gambar" :alt="nama" @click="bukaPreview(gambar)" />
- <h3>{{ nama }}</h3>
- <P>{{ deskripsi }}</P>
+ <h3 class="nama">{{ nama }}</h3>
+ <P class="deskripsi">{{ deskripsi }}</P>
  <p>Rp {{ harga.toLocaleString('id-ID') }}</p>
  <button @click="tambahKeKeranjang(nama)">Tambah ke Keranjang</button>
 </div>
@@ -26,11 +26,12 @@ function tambahKeKeranjang(nama) {
 </template>
 <style scoped>
 .card {
- border: 1px solid #ddd;
+ border: 1px solid #1202ca;
  border-radius: 10px;
  padding: 14px;
  width: 200px;
  text-align: center;
+ margin-left: 20px;
 }
 .card img { width: 100%; border-radius: 6px; cursor: pointer; }
 .preview-overlay {
@@ -43,8 +44,16 @@ function tambahKeKeranjang(nama) {
 button {
  margin-top: 8px;
  padding: 6px 12px;
+ color:white;
  border: none;
  border-radius: 6px;
- background: #2E75
+ background:linear-gradient(90deg, #243b80, #3f4fd3);
 }
+.deskripsi{
+color:#243b80;
+}
+.nama{
+color: navy;
+}
+
 </style>
