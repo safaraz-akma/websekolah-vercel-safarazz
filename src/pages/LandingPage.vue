@@ -2,7 +2,7 @@
  <main>
     <div class="main hero bg-indigo-500 text-center p-[100px] flex flex-col 
     items-start justify center text white pt-2 pb-2 gap-9 rounded-lg">
- <h1 class="text-[40pt] text-center">Welcome To Onlineshop Razz</h1>
+ <h1 class="text-[40pt] text-center mt-10">Welcome To Onlineshop Razz</h1>
  <p class="text-[28pt] landing-[80pt]">Belanja gampang, hati pun senang, semuanya ada disini. Gaskeunn!!!
 </p>
 <button class="btn"><a href="/product"> Beli Sekarang</a></button>

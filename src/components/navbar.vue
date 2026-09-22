@@ -6,7 +6,8 @@ src/components/Navbar.vue
  <RouterLink to="/">Landing</RouterLink> |
  <RouterLink to="/product">Product</RouterLink> |
  <RouterLink to="/about">About</RouterLink> |
- <RouterLink to="/contact">Contact</RouterLink>
+ <RouterLink to="/contact">Contact</RouterLink> |
+ <RouterLink to="/ulasan">Ulasan</RouterLink> 
 </div>
 
 </nav>

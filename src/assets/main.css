@@ -15,14 +15,14 @@ body {
 
 } */
 .btn{
-  background:rgb(243, 243, 245);
+  background: rgb(254, 254, 254);
   border-radius:30px;
   font-size: 30px;
   padding-right: 30px;
   padding-left: 30px;
-  margin-bottom: -20px;
-  margin-left: 410px;
-  color: #020a55;
+  margin-bottom: 30px;
+  margin-left: 510px;
+  color: #0c0c0c;
   justify-content: center;
 }
 .kualitas{

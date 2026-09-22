@@ -94,7 +94,7 @@ const DaftarProduk = [
   },
   {
     id: 14,
-    nama: "VIVO X300",
+    nama: "VIVO IQOO Z11 5G",
     deskripsi: "256/8GB |  Snapdragon 7s Gen 4  | Baterai 9020 MAh | Flash Charge 90W |",
     harga: 6799000,
     gambar: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSiIIaXlynIoN82EWfvQS6DGLiCsVJxqiFciM8gr1-RrQ&s=10",
@@ -105,6 +105,27 @@ const DaftarProduk = [
     deskripsi: "256/8GB | Snapdragon G99 | Baterai 5000 MAh | Fast Charge 45W |",
     harga: 5199000,
     gambar: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT9aO9MQq7zZYX2curgVm4_e_bmMHBH7PGSAQTc7mv1fQ&s=10",
+  },
+  {
+    id: 13,
+    nama: "IQOO Z11X 5G",
+    deskripsi: "256/8GB | Dimensity 7400 turbo | Baterai 7200 MAh | Fast Charge 44W |",
+    harga: 5699000,
+    gambar: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRmXAV7t6uh65OfQEdUfieLf-JNOKBSBFZXXWrnjs9A5Q&s",
+  },
+  {
+    id: 13,
+    nama: "IQOO Z11X 5G",
+    deskripsi: "256/8GB | Dimensity 7400 turbo | Baterai 7200 MAh | Fast Charge 44W |",
+    harga: 5699000,
+    gambar: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRmXAV7t6uh65OfQEdUfieLf-JNOKBSBFZXXWrnjs9A5Q&s",
+  },
+  {
+    id: 13,
+    nama: "IQOO Z11X 5G",
+    deskripsi: "256/8GB | Dimensity 7400 turbo | Baterai 7200 MAh | Fast Charge 44W |",
+    harga: 5699000,
+    gambar: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRmXAV7t6uh65OfQEdUfieLf-JNOKBSBFZXXWrnjs9A5Q&s",
   },
   
   
