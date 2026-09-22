@@ -20,8 +20,8 @@
         </p>
       </div>
 
-      <div class="foto">
-        
+      <div class="">
+       <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRcylLDVfY17c1TAV_lQvLTZtIEMTmmuIVY3-A1gSjTqg&s=10" alt=""> 
       </div>
     </section>
 
@@ -105,7 +105,7 @@ const anggotaTim = [
   flex: 1;
   height: 180px;
   background: #eeeaff;
-  border-radius: 12px;
+  border-radius: 50px;
 
   display: flex;
   align-items: center;

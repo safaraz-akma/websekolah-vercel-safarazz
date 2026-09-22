@@ -1,15 +1,15 @@
 <template>
  <main>
     <div class="main hero bg-indigo-500 text-center p-[100px] flex flex-col 
-    items-start justify center text white pt-2 pb-2 gap-9">
- <h1 class="text-[62pt] text center">Selamat Datang di Onlineshop Razz</h1>
+    items-start justify center text white pt-2 pb-2 gap-9 rounded-lg">
+ <h1 class="text-[40pt] text-center">Welcome To Onlineshop Razz</h1>
  <p class="text-[28pt] landing-[80pt]">Belanja gampang, hati pun senang, semuanya ada disini. Gaskeunn!!!
 </p>
 <button class="btn"><a href="/product"> Beli Sekarang</a></button>
 <div class="ml-70 mb-5">
- <video controls width="500" loop>
+ <!-- <video controls width="500" loop>
     <source src="https://www.w3schools.com/html/mov_bbb.mp4"/>
-   </video>
+   </video> -->
    </div>
 
  </div>
