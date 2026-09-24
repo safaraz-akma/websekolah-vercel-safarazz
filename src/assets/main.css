@@ -28,12 +28,14 @@ body {
 .kualitas{
   text-align: center;
   padding: 20px;
-  background: rgb(247, 245, 245);
+  background: rgb(8, 8, 8);
   border-radius: 10px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   margin-top: 20px;
-  color:darkblue;
+  color: #3f4fd3;
   margin:10px;
+  flex-wrap: wrap;
+  transition: 0.3s;
   
   
 }
@@ -47,9 +49,9 @@ body {
 .sekolah {
   text-align: center;
   padding: 20px;
-  background: rgb(240, 240, 240);
+  background: rgb(8, 8, 8);
   border-radius: 10px;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 4px 6px rgba(239, 2, 2, 0.1);
   margin-top: 20px;
   margin-left: 200px;
   margin-right: 200px;

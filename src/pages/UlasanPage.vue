@@ -50,7 +50,7 @@ const daftarTestimoni = [
   {
     id: 3,
     nama: "Prabowo",
-    status: "Presiden RI",
+    status: "Pendiri Kopdes",
     pesan: "Wowo sangat suka produknya. Pelayanannya ramah banget."
   }
 ];

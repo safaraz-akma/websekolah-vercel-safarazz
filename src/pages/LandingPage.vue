@@ -5,14 +5,14 @@
  <h1 class="text-[40pt] text-center mt-10">Welcome To Onlineshop Razz</h1>
  <p class="text-[28pt] landing-[80pt]">Belanja gampang, hati pun senang, semuanya ada disini. Gaskeunn!!!
 </p>
-<button class="btn"><a href="/product"> Beli Sekarang</a></button>
-<div class="ml-70 mb-5">
- <!-- <video controls width="500" loop>
+<button class="btn"><a href="/product"> Beli Sekarang</a></button></div>
+<div class="video">
+ <center><video controls width="500" loop>
     <source src="https://www.w3schools.com/html/mov_bbb.mp4"/>
-   </video> -->
+   </video></center> 
    </div>
 
- </div>
+ 
  <div class="container">
     <div class="kualitas">
       <h3>🏆</h3>
@@ -32,4 +32,12 @@
  </div>
  </main>
 </template>
+<style scoped>
+.video{
+   border-radius: 20px;
+   margin-top: 50px;
+   margin-bottom: 50px;
+}
+</style>
+
 

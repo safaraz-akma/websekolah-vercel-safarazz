@@ -20,7 +20,7 @@
         </p>
       </div>
 
-      <div class="">
+      <div class="foto">
        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRcylLDVfY17c1TAV_lQvLTZtIEMTmmuIVY3-A1gSjTqg&s=10" alt=""> 
       </div>
     </section>
@@ -94,6 +94,7 @@ const anggotaTim = [
 .text h2,
 .tim h2 {
   color: #243b80;
+  size: 20px;
 }
 
 .text p {
@@ -106,7 +107,9 @@ const anggotaTim = [
   height: 180px;
   background: #eeeaff;
   border-radius: 50px;
-
+  margin-top: 70px;
+  margin-bottom: 50px;
+  
   display: flex;
   align-items: center;
   justify-content: center;
