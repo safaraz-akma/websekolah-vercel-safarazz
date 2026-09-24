@@ -94,11 +94,11 @@ const anggotaTim = [
 .text h2,
 .tim h2 {
   color: #243b80;
-  size: 20px;
+  font-size: 20px;
 }
 
 .text p {
-  font-size: 14px;
+  font-size: 20px;
   line-height: 1.6;
 }
 
@@ -107,7 +107,7 @@ const anggotaTim = [
   height: 180px;
   background: #eeeaff;
   border-radius: 50px;
-  margin-top: 70px;
+  margin-top: 90px;
   margin-bottom: 50px;
   
   display: flex;
