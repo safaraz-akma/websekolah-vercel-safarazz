@@ -8,10 +8,13 @@ function bukaPreview(src) {
 function tutupPreview() {
  gambarDipilih.value = null
 }
-function tambahKeKeranjang(nama) {
- const suara = new Audio('/audio/notifikasi.mp3')
+function tambahKeKeranjang(nama) { 
+ const suara = new Audio('/audio.mp3')
  suara.play()
- alert(`${nama} ditambahkan ke keranjang lekku!`)
+
+ setTimeout(() => {
+   alert(`${nama} ditambahkan ke keranjang lekku!`)
+ }, 300)
 }
 </script>
 <template>
@@ -32,6 +35,8 @@ function tambahKeKeranjang(nama) {
  width: 200px;
  text-align: center;
  margin-left: 20px;
+ display: flex;
+ flex-direction: column;
 }
 .card img { width: 100%; border-radius: 6px; cursor: pointer; }
 .preview-overlay {
