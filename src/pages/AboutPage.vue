@@ -105,15 +105,14 @@ const anggotaTim = [
 }
 
 .foto {
-  flex: 1;
-  height: 180px;
-  background: #eeeaff;
-  border-radius: 50px;
-  margin-top: 90px;
-  margin-bottom: 50px;
+  width: 400px;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 50%;
+  display: block;
+  margin: 30px auto;
   
   display: flex;
-  align-items: center;
   justify-content: center;
   color: #777;
 }

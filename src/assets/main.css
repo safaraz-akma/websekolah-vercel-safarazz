@@ -20,10 +20,14 @@ body {
   font-size: 30px;
   padding-right: 30px;
   padding-left: 30px;
-  margin-bottom: 30px;
-  margin-left: 510px;
   color: #FFFFFF;
   justify-content: center;
+  display: inline-block;
+  padding: 10px 25px;
+  text-decoration: none;
+  margin-bottom: 20px;
+  margin-top: 10px;
+
 }
 .kualitas{
   text-align: center;
@@ -33,19 +37,19 @@ body {
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   margin-top: 20px;
   color: #3f4fd3;
-  flex-wrap: wrap;
   transition: 0.3s;
   margin:10px;
+ 
   
   
 }
-.container{
+/* .container{
    display: flex;
   justify-content: center;
   align-items: center;
-  margin-left: 100px;
-  margin-right: 100px;
-}
+  gap: 20px;
+  flex-wrap: wrap;
+} */
 /* .sekolah {
   text-align: center;
   padding: 20px;

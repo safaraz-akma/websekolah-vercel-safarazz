@@ -21,8 +21,14 @@
         </p>
 
         <p>
-          <strong>✉️ Email</strong><br>
+          <strong>Ⓜ️ Email</strong><br>
           onlineshop@Razz.sch.id
+
+        </p>
+        <p>
+          <strong>🌐 Instagram</strong><br>
+          @Safarazz_30
+          
         </p>
       </div>
 
@@ -76,6 +82,7 @@
 /* Info kontak */
 .contact-info {
   flex: 1;
+  font-size: 20px;
 }
 
 .contact-info h2,
