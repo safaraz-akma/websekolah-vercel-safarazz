@@ -1,3 +1,9 @@
+<script setup>
+function mainkanSuara() {
+  const suara = new Audio('/audio.mp3')
+  suara.play()
+}
+</script>
 <template>
    <main>
       <div class="main hero bg-indigo-500 text-center p-[100px]  
@@ -5,7 +11,7 @@
          <h1 class="text-[40pt] text-center mt-10">Welcome To Onlineshop Razz</h1>
          <p class="text-[28pt] landing-[80pt]">Belanja gampang, hati pun senang, semuanya ada disini. Gaskeunn!!!
          </p>
-         <RouterLink to="/product" class="btn">Beli Sekarang</RouterLink>
+         <RouterLink to="/product" class="btn" @click="mainkanSuara">Beli Sekarang</RouterLink>
       </div>
       <div class="video">
          <center><video controls width="500" loop>
