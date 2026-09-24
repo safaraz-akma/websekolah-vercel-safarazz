@@ -1,7 +1,7 @@
 src/components/Navbar.vue
 <template>
  <nav>
- <h2>R4ZZ 4EVER - Onlineshop</h2>
+ <h2></h2>
  <div class="menu"> 
  <RouterLink to="/">Landing</RouterLink> |
  <RouterLink to="/product">Product</RouterLink> |
@@ -26,5 +26,6 @@ src/components/Navbar.vue
   transform: translateX(-50%);
   display: flex;
   gap: 30px;
+  margin-bottom: 20px;
 }
 </style>

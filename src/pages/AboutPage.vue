@@ -73,6 +73,7 @@ const anggotaTim = [
   text-align: center;
   padding: 30px;
   margin-bottom: 30px;
+
 }
 
 .banner h1 {
@@ -94,7 +95,8 @@ const anggotaTim = [
 .text h2,
 .tim h2 {
   color: #243b80;
-  font-size: 20px;
+  font-size: 25px;
+  margin-bottom: 20px;
 }
 
 .text p {
