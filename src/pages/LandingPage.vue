@@ -5,7 +5,7 @@
          <h1 class="text-[40pt] text-center mt-10">Welcome To Onlineshop Razz</h1>
          <p class="text-[28pt] landing-[80pt]">Belanja gampang, hati pun senang, semuanya ada disini. Gaskeunn!!!
          </p>
-         <button class="btn"><a href="/product"> Beli Sekarang</a></button>
+         <RouterLink to="/product" class="btn">Beli Sekarang</RouterLink>
       </div>
       <div class="video">
          <center><video controls width="500" loop>
