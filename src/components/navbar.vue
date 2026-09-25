@@ -27,5 +27,6 @@ src/components/Navbar.vue
   display: flex;
   gap: 30px;
   margin-bottom: 20px;
+  margin-top: 10px;
 }
 </style>
