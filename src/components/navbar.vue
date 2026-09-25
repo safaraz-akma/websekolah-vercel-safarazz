@@ -26,7 +26,7 @@ src/components/Navbar.vue
   transform: translateX(-50%);
   display: flex;
   gap: 30px;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
   margin-top: 10px;
 }
 </style>
