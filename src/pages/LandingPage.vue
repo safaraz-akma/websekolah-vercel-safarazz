@@ -6,12 +6,12 @@ function mainkanSuara() {
 </script>
 <template>
    <main>
-      <div class="main hero bg-indigo-500 text-center p-[100px]  
-    items-start justify center text white pt-2 pb-2 gap-9 rounded-lg">
-         <h1 class="text-[40pt] text-center mt-10">Welcome To Onlineshop Razz</h1>
-         <p class="text-[28pt] landing-[80pt]">Belanja gampang, hati pun senang, semuanya ada disini. Gaskeunn!!!
+      <div class="main hero  bg-linear-to-t from-sky-500 to-indigo-500 text-center p-[100px]  
+    items-start justify center text-white pt-2 pb-2 gap-9 rounded-xl ml-30 mr-30">
+         <h1 class="text-[40pt] text-center mt-10 ">Welcome To Onlineshop Razz</h1>
+         <p class="text-[28pt] landing-[80pt]">Belanja gampang, hati pun senang, semuanya ada disini.
          </p>
-         <RouterLink to="/product" class="btn" @click="mainkanSuara">Beli Sekarang</RouterLink>
+         <RouterLink to="/product" class="btn" @click="mainkanSuara">Lihat Produk</RouterLink>
       </div>
       <div class="video">
          <center><video controls width="500" loop>
